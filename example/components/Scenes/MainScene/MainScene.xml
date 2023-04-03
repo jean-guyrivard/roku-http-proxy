@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- ##COPYRIGHT HEADER## -->
+
+<component name="MainScene" extends="Scene">
+  <script type="text/brightscript" uri="MainScene.brs" />
+  
+  <interface>
+    <field id="exitApplication" type="boolean" value="false" />
+  </interface>
+
+  <children>
+    <RowList id="dataList" />
+    <LayoutGroup id="layout">
+      <Label id="instructions" />
+      <Label id="status" />
+    </LayoutGroup>
+  </children>
+</component>

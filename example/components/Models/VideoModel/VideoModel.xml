@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="VideoModel" extends="Group">
+  <script type="text/brightscript" uri="VideoModel.brs" />
+
+  <children>
+    <Poster id="poster" />
+    <Label id="title" />
+  </children>
+
+  <interface>
+    <field id="itemContent" type="Node" />
+    <field id="width" type="float" value="320" />
+    <field id="height" type="float" value="320" />
+  </interface>
+</component>

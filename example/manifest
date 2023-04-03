@@ -1,0 +1,14 @@
+title=roku-http-proxy
+major_version=1
+minor_version=0
+build_version=0001
+rsg_version=1.2
+mm_icon_focus_sd=pkg:/assets/sd/roku-icon.png
+mm_icon_focus_hd=pkg:/assets/hd/roku-icon.png
+mm_icon_focus_fhd=pkg:/assets/fhd/roku-icon.png
+splash_screen_sd=pkg:/assets/hd/roku-splash.jpg
+splash_screen_hd=pkg:/assets/hd/roku-splash.jpg
+splash_screen_fhd=pkg:/assets/fhd/roku-splash.jpg
+splash_rsg_optimization=1
+ui_resolutions=fhd
+bs_const=

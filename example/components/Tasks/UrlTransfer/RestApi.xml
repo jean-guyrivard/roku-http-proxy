@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ##COPYRIGHT HEADER## -->
+
+<component name="Task.RestApi" extends="Task" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+
+  <script type="text/brightscript" uri="RestApi.brs" />
+  <script type="text/brightscript" uri="http-proxy.brs" />
+  
+  <interface>
+    <field id="request" type="array" />
+    <field id="response" type="node" />
+    <field id="proxy" type="assocarray" />
+  </interface>
+</component>
